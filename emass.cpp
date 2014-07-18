@@ -261,7 +261,7 @@ void calculate(Pattern & tmp, Pattern & result, FormMap & fm,
 
 int main(int argc, char * argv[])
 {
-  char * isotopefn = "ISOTOPE.DAT";
+  const char * isotopefn = "ISOTOPE.DAT";
   double limit = 0;
   int digits = 6;
   int opt;
